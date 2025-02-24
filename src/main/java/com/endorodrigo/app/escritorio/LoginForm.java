@@ -126,7 +126,7 @@ public class LoginForm extends javax.swing.JFrame {
     }//GEN-LAST:event_txtPssActionPerformed
 
     private void btnEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarActionPerformed
-        btnEnviar.addActionListener(e -> validar());
+        validar();
     }//GEN-LAST:event_btnEnviarActionPerformed
 
     private void validar() {
@@ -141,7 +141,7 @@ public class LoginForm extends javax.swing.JFrame {
     }
 
     private void mostrarMensaje(String msg) {
-        JOptionPane.showMessageDialog(rootPane, msg);
+        JOptionPane.showMessageDialog(null, msg);
     }
 
     /**
